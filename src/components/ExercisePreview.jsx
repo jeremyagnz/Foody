@@ -19,10 +19,11 @@ const MUSCLE_COLORS = {
 
 export default function ExercisePreview({ exercise }) {
   const [open, setOpen] = useState(false);
+  const [imgError, setImgError] = useState(false);
   const { t } = useLang();
   const ec = t.exerciseCard;
 
-  const { name, muscle, difficulty, equipment, sets, reps, instructions, emoji } = exercise;
+  const { name, muscle, difficulty, equipment, sets, reps, instructions, image, emoji } = exercise;
 
   const diffColor = DIFFICULTY_COLORS[difficulty] ?? 'badge-gray';
   const muscleColor = MUSCLE_COLORS[muscle] ?? 'badge-gray';
@@ -38,13 +39,16 @@ export default function ExercisePreview({ exercise }) {
         aria-expanded={open}
         aria-label={`${name} – ${open ? ec.hideInstructions : ec.showInstructions}`}
       >
-        <span className="exercise-preview-toggle-emoji">{emoji}</span>
+        <span className="exercise-preview-toggle-emoji" aria-hidden="true">{emoji}</span>
         <span className="exercise-preview-toggle-name">{name}</span>
         <span className="exercise-preview-toggle-chevron">{open ? '▲' : '▼'}</span>
       </button>
 
       {open && (
         <div className="exercise-preview-body">
+          {image && !imgError && (
+            <img src={image} alt={name} className="exercise-preview-img" onError={() => setImgError(true)} />
+          )}
           <div className="badge-row">
             <span className={`badge ${muscleColor}`}>{muscleLabel}</span>
             <span className={`badge ${diffColor}`}>{diffLabel}</span>

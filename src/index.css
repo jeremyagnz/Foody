@@ -290,6 +290,14 @@ img {
   padding: 1rem 0 0.5rem;
 }
 
+.card-exercise-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  display: block;
+}
+
 .card-title {
   font-size: 1.1rem;
   font-weight: 700;
@@ -1016,6 +1024,14 @@ img {
   flex-direction: column;
   gap: 0.45rem;
   animation: fadeIn 0.15s ease;
+}
+
+.exercise-preview-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0.35rem;
+  display: block;
 }
 
 .exercise-preview-stats {

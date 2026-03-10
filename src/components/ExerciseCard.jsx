@@ -24,10 +24,11 @@ const LOCATION_COLORS = {
 
 export default function ExerciseCard({ exercise }) {
   const [open, setOpen] = useState(false);
+  const [imgError, setImgError] = useState(false);
   const { t } = useLang();
   const ec = t.exerciseCard;
 
-  const { name, muscle, difficulty, equipment, location, sets, reps, instructions, emoji } = exercise;
+  const { name, muscle, difficulty, equipment, location, sets, reps, instructions, image, emoji } = exercise;
 
   const diffColor   = DIFFICULTY_COLORS[difficulty] ?? 'badge-gray';
   const muscleColor = MUSCLE_COLORS[muscle]          ?? 'badge-gray';
@@ -40,7 +41,10 @@ export default function ExerciseCard({ exercise }) {
 
   return (
     <div className="card">
-      <div className="card-emoji">{emoji}</div>
+      {image && !imgError
+        ? <img src={image} alt={name} className="card-exercise-img" onError={() => setImgError(true)} />
+        : <div className="card-emoji" aria-hidden="true">{emoji}</div>
+      }
 
       <div>
         <h3 className="card-title">{name}</h3>
