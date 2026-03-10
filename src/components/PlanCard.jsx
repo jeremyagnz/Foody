@@ -31,6 +31,7 @@ export default function PlanCard({ plan }) {
 
   // Translated goal/difficulty labels
   const goalLabel = t.goals[goal] ?? goal;
+  const diffLabel = t.difficulties[difficulty] ?? difficulty;
 
   return (
     <div className="card">
@@ -40,7 +41,7 @@ export default function PlanCard({ plan }) {
         <h3 className="card-title">{name}</h3>
         <div className="badge-row" style={{ marginTop: '0.5rem' }}>
           <span className={`badge ${goalColor}`}>{goalLabel}</span>
-          <span className={`badge ${diffColor}`}>{difficulty}</span>
+          <span className={`badge ${diffColor}`}>{diffLabel}</span>
           <span className="badge badge-gray">⏱ {duration}</span>
         </div>
       </div>

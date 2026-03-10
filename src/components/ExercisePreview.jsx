@@ -27,6 +27,8 @@ export default function ExercisePreview({ exercise }) {
   const diffColor = DIFFICULTY_COLORS[difficulty] ?? 'badge-gray';
   const muscleColor = MUSCLE_COLORS[muscle] ?? 'badge-gray';
   const muscleLabel = t.muscles[muscle] ?? muscle;
+  const diffLabel = t.difficulties[difficulty] ?? difficulty;
+  const equipLabel = t.equipments[equipment] ?? equipment;
 
   return (
     <div className={`exercise-preview${open ? ' exercise-preview--open' : ''}`}>
@@ -45,8 +47,8 @@ export default function ExercisePreview({ exercise }) {
         <div className="exercise-preview-body">
           <div className="badge-row">
             <span className={`badge ${muscleColor}`}>{muscleLabel}</span>
-            <span className={`badge ${diffColor}`}>{difficulty}</span>
-            <span className="badge badge-gray">🔧 {equipment}</span>
+            <span className={`badge ${diffColor}`}>{diffLabel}</span>
+            <span className="badge badge-gray">🔧 {equipLabel}</span>
           </div>
           <div className="exercise-preview-stats">
             <span className="exercise-preview-stat-value">{sets}</span>

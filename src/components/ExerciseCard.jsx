@@ -35,6 +35,8 @@ export default function ExerciseCard({ exercise }) {
 
   const muscleLabel = t.muscles[muscle]        ?? muscle;
   const locLabel    = t.locations[location]    ?? location;
+  const diffLabel   = t.difficulties[difficulty] ?? difficulty;
+  const equipLabel  = t.equipments[equipment]    ?? equipment;
 
   return (
     <div className="card">
@@ -44,7 +46,7 @@ export default function ExerciseCard({ exercise }) {
         <h3 className="card-title">{name}</h3>
         <div className="badge-row" style={{ marginTop: '0.5rem' }}>
           <span className={`badge ${muscleColor}`}>{muscleLabel}</span>
-          <span className={`badge ${diffColor}`}>{difficulty}</span>
+          <span className={`badge ${diffColor}`}>{diffLabel}</span>
           <span className={`badge ${locColor}`}>{locLabel}</span>
         </div>
       </div>
@@ -62,7 +64,7 @@ export default function ExerciseCard({ exercise }) {
       </div>
 
       <div className="badge-row">
-        <span className="badge badge-gray">🔧 {equipment}</span>
+        <span className="badge badge-gray">🔧 {equipLabel}</span>
       </div>
 
       <button className="details-btn" onClick={() => setOpen((o) => !o)}>

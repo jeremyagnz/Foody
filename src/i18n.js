@@ -72,6 +72,13 @@ const translations = {
       machines: 'Machines',
     },
 
+    // Difficulty filter
+    difficulties: {
+      beginner: 'Beginner',
+      intermediate: 'Intermediate',
+      advanced: 'Advanced',
+    },
+
     // Muscle filter
     muscles: {
       chest: 'Chest',
@@ -240,6 +247,13 @@ const translations = {
       weights: 'Pesas',
       'resistance bands': 'Bandas de Resistencia',
       machines: 'Máquinas',
+    },
+
+    // Difficulty filter
+    difficulties: {
+      beginner: 'Principiante',
+      intermediate: 'Intermedio',
+      advanced: 'Avanzado',
     },
 
     // Muscle filter
