@@ -9,8 +9,8 @@
     "sets": 4,
     "reps": 12,
     "instructions": "Keep body straight, lower chest to floor by bending elbows, then push back up. Keep core tight throughout.",
-    "image": "pushup.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 2,
@@ -22,8 +22,8 @@
     "sets": 4,
     "reps": 15,
     "instructions": "Stand with feet shoulder-width apart. Lower hips as if sitting into a chair, keeping knees over toes. Return to standing.",
-    "image": "squat.jpg",
-    "emoji": "🦵"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/0.jpg",
+    "emoji": "\ud83e\uddb5"
   },
   {
     "id": 3,
@@ -35,8 +35,8 @@
     "sets": 3,
     "reps": 45,
     "instructions": "Hold a push-up position with arms straight. Keep body in a straight line. Hold for time. Breathe steadily.",
-    "image": "plank.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 4,
@@ -48,8 +48,8 @@
     "sets": 4,
     "reps": 8,
     "instructions": "Hang from bar with overhand grip. Pull yourself up until chin clears bar. Lower with control.",
-    "image": "pullup.jpg",
-    "emoji": "🔝"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/0.jpg",
+    "emoji": "\ud83d\udd1d"
   },
   {
     "id": 5,
@@ -61,8 +61,8 @@
     "sets": 4,
     "reps": 10,
     "instructions": "Lie on bench, grip bar slightly wider than shoulders. Lower to chest, then press to full extension.",
-    "image": "bench-press.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Bench_Press_-_Medium_Grip/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 6,
@@ -74,8 +74,8 @@
     "sets": 4,
     "reps": 8,
     "instructions": "Stand with feet hip-width. Hinge at hips to grasp bar. Drive hips forward to stand, keeping back straight.",
-    "image": "deadlift.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Deadlift/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 7,
@@ -87,8 +87,8 @@
     "sets": 5,
     "reps": 8,
     "instructions": "Rest bar on upper traps. Squat until thighs parallel to floor, keeping chest up and knees tracking over toes.",
-    "image": "barbell-squat.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Squat/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 8,
@@ -100,8 +100,8 @@
     "sets": 4,
     "reps": 10,
     "instructions": "Hold barbell at shoulder height. Press directly overhead to full extension. Lower back to shoulder level.",
-    "image": "overhead-press.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Shoulder_Press/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 9,
@@ -113,8 +113,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Hold dumbbells at sides. Step forward, lower knee toward floor. Push back to start. Alternate legs.",
-    "image": "lunges.jpg",
-    "emoji": "🦵"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lunges/0.jpg",
+    "emoji": "\ud83e\uddb5"
   },
   {
     "id": 10,
@@ -126,8 +126,8 @@
     "sets": 3,
     "reps": 20,
     "instructions": "Lie on back, hands behind head. Bring opposite elbow to knee while extending other leg. Alternate sides.",
-    "image": "bicycle-crunch.jpg",
-    "emoji": "🚴"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cross-Body_Crunch/0.jpg",
+    "emoji": "\ud83d\udeb4"
   },
   {
     "id": 11,
@@ -139,8 +139,8 @@
     "sets": 3,
     "reps": 30,
     "instructions": "Start in push-up position. Drive knees alternately to chest in a running motion. Keep hips level.",
-    "image": "mountain-climbers.jpg",
-    "emoji": "🧗"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Mountain_Climbers/0.jpg",
+    "emoji": "\ud83e\uddd7"
   },
   {
     "id": 12,
@@ -152,8 +152,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Stand on band, hold handles. Curl hands to shoulders, squeezing biceps. Lower slowly.",
-    "image": "band-curl.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Bicep_Curl/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 13,
@@ -165,8 +165,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Sit with back supported. Hold dumbbells at shoulder height. Press overhead to full extension, lower back.",
-    "image": "dumbbell-press.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Shoulder_Press/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 14,
@@ -178,8 +178,8 @@
     "sets": 4,
     "reps": 12,
     "instructions": "Sit at machine, grip bar wide. Pull bar to upper chest, squeezing shoulder blades together. Control the return.",
-    "image": "lat-pulldown.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Lat_Pulldown/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 15,
@@ -191,8 +191,8 @@
     "sets": 4,
     "reps": 10,
     "instructions": "Stand facing box. Dip and explode upward, landing softly on box with bent knees. Step back down.",
-    "image": "box-jump.jpg",
-    "emoji": "📦"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Box_Jump/0.jpg",
+    "emoji": "\ud83d\udce6"
   },
   {
     "id": 16,
@@ -204,8 +204,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Place hands on chair or bench behind you. Bend elbows to lower body, then push back up to start.",
-    "image": "tricep-dips.jpg",
-    "emoji": "💺"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bench_Dips/0.jpg",
+    "emoji": "\ud83d\udcba"
   },
   {
     "id": 17,
@@ -217,8 +217,8 @@
     "sets": 4,
     "reps": 10,
     "instructions": "Hold dumbbells in front. Hinge at hips keeping back straight, lower weights along legs. Return to standing.",
-    "image": "romanian-deadlift.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Romanian_Deadlift/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 18,
@@ -230,8 +230,8 @@
     "sets": 4,
     "reps": 12,
     "instructions": "Sit at cable row machine. Pull handle to lower chest, squeezing shoulder blades. Return with control.",
-    "image": "cable-row.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elevated_Cable_Rows/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 19,
@@ -243,8 +243,8 @@
     "sets": 3,
     "reps": 10,
     "instructions": "Drop to push-up position, do push-up, jump feet to hands, explode upward with arms overhead.",
-    "image": "burpees.jpg",
-    "emoji": "⚡"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Freehand_Jump_Squat/0.jpg",
+    "emoji": "\u26a1"
   },
   {
     "id": 20,
@@ -256,8 +256,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Lie on bench with dumbbells extended. Lower arms in arc shape keeping slight elbow bend. Squeeze chest to return.",
-    "image": "chest-fly.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Flyes/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 21,
@@ -269,8 +269,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Stand on band, hold at shoulder height. Perform squat, the band adds resistance. Keep knees tracking over toes.",
-    "image": "band-squat.jpg",
-    "emoji": "🦵"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/0.jpg",
+    "emoji": "\ud83e\uddb5"
   },
   {
     "id": 22,
@@ -282,8 +282,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Place feet on elevated surface. Perform push-up. Decline angle targets upper chest more intensely.",
-    "image": "decline-pushup.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Push-Up/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 23,
@@ -295,8 +295,8 @@
     "sets": 4,
     "reps": 12,
     "instructions": "Sit in machine, place feet shoulder-width on plate. Push plate away until legs nearly straight. Return controlled.",
-    "image": "leg-press.jpg",
-    "emoji": "🦵"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Press/0.jpg",
+    "emoji": "\ud83e\uddb5"
   },
   {
     "id": 24,
@@ -308,8 +308,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Hold dumbbells at sides. Raise arms out to sides until parallel to floor. Lower slowly with control.",
-    "image": "lateral-raise.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Lateral_Raise/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 25,
@@ -321,8 +321,8 @@
     "sets": 3,
     "reps": 20,
     "instructions": "Sit with feet off floor, lean back slightly. Twist torso side to side, touching floor each rep.",
-    "image": "russian-twist.jpg",
-    "emoji": "🔄"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Russian_Twist/0.jpg",
+    "emoji": "\ud83d\udd04"
   },
   {
     "id": 26,
@@ -334,8 +334,8 @@
     "sets": 3,
     "reps": 60,
     "instructions": "Jump rope at steady pace for 1 minute. Keep elbows close to body. Land softly on balls of feet.",
-    "image": "jump-rope.jpg",
-    "emoji": "🪢"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rope_Jumping/0.jpg",
+    "emoji": "\ud83e\udea2"
   },
   {
     "id": 27,
@@ -347,8 +347,8 @@
     "sets": 4,
     "reps": 10,
     "instructions": "Set bench to 30-45 degree incline. Press dumbbells from chest level to full extension. Focus on upper chest.",
-    "image": "incline-press.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Dumbbell_Press/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 28,
@@ -360,8 +360,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Hold band at chest level, arms extended. Pull band apart squeezing shoulder blades together. Return slowly.",
-    "image": "band-pull.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Pull_Apart/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 29,
@@ -373,8 +373,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Lie on back with knees bent. Push hips toward ceiling squeezing glutes at the top. Hold 1 second, lower.",
-    "image": "glute-bridge.jpg",
-    "emoji": "🍑"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Glute_Bridge/0.jpg",
+    "emoji": "\ud83c\udf51"
   },
   {
     "id": 30,
@@ -386,8 +386,8 @@
     "sets": 4,
     "reps": 12,
     "instructions": "Hinge forward 45 degrees with dumbbell in hand. Pull elbow back and up, squeezing back. Lower with control.",
-    "image": "dumbbell-row.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One-Arm_Dumbbell_Row/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 31,
@@ -399,8 +399,8 @@
     "sets": 3,
     "reps": 30,
     "instructions": "Jump feet wide while raising arms overhead. Return to start position. Maintain steady rhythm throughout.",
-    "image": "jumping-jacks.jpg",
-    "emoji": "⭐"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Freehand_Jump_Squat/0.jpg",
+    "emoji": "\u2b50"
   },
   {
     "id": 32,
@@ -412,8 +412,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Stand at cable machine. Push handle downward extending elbows. Keep upper arms stationary throughout.",
-    "image": "tricep-pushdown.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Triceps_Pushdown/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 33,
@@ -425,8 +425,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Rest upper arms on preacher pad. Curl barbell to chin level, fully extending each rep. Squeeze biceps at top.",
-    "image": "preacher-curl.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Preacher_Curl/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 34,
@@ -438,8 +438,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Hang from pull-up bar. Raise legs to parallel or higher. Lower with control. Avoid swinging.",
-    "image": "leg-raise.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 35,
@@ -451,8 +451,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Anchor band at face height. Pull rope toward face, flaring elbows out. Squeeze rear delts at the end.",
-    "image": "face-pull.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Face_Pull/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 36,
@@ -464,8 +464,8 @@
     "sets": 3,
     "reps": 45,
     "instructions": "Back against wall, slide down until thighs parallel to floor. Hold position. Keep core engaged throughout.",
-    "image": "wall-sit.jpg",
-    "emoji": "🧱"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Squat/0.jpg",
+    "emoji": "\ud83e\uddf1"
   },
   {
     "id": 37,
@@ -477,8 +477,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Set cables at chest height. Press handles forward until arms extended. Squeeze chest. Return controlled.",
-    "image": "cable-press.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Chest_Press/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 38,
@@ -490,8 +490,8 @@
     "sets": 3,
     "reps": 6,
     "instructions": "Kneel with feet anchored. Slowly lower torso forward keeping body straight. Push up using hamstrings.",
-    "image": "nordic-curl.jpg",
-    "emoji": "🦵"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Natural_Glute_Ham_Raise/0.jpg",
+    "emoji": "\ud83e\uddb5"
   },
   {
     "id": 39,
@@ -503,8 +503,8 @@
     "sets": 3,
     "reps": 10,
     "instructions": "Start with palms facing you at chin height. As you press up, rotate palms outward. Reverse on the way down.",
-    "image": "arnold-press.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Arnold_Dumbbell_Press/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 40,
@@ -516,8 +516,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Lie face down with arms extended. Lift chest, arms and legs simultaneously. Hold 2 seconds, lower.",
-    "image": "superman.jpg",
-    "emoji": "🦸"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Superman/0.jpg",
+    "emoji": "\ud83e\uddb8"
   },
   {
     "id": 41,
@@ -529,8 +529,8 @@
     "sets": 1,
     "reps": 20,
     "instructions": "Set treadmill to comfortable pace. Run for 20 mins maintaining steady heart rate. Cool down last 2 mins.",
-    "image": "treadmill.jpg",
-    "emoji": "🏃"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Jogging_Treadmill/0.jpg",
+    "emoji": "\ud83c\udfc3"
   },
   {
     "id": 42,
@@ -542,8 +542,8 @@
     "sets": 3,
     "reps": 30,
     "instructions": "Run in place bringing knees as high as possible. Pump arms in opposition. Stay on balls of feet.",
-    "image": "high-knees.jpg",
-    "emoji": "🏃"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Mountain_Climbers/0.jpg",
+    "emoji": "\ud83c\udfc3"
   },
   {
     "id": 43,
@@ -555,8 +555,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Place band around ankles. Stand in partial squat. Step laterally maintaining band tension throughout.",
-    "image": "lateral-walk.jpg",
-    "emoji": "🦵"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Monster_Walk/0.jpg",
+    "emoji": "\ud83e\uddb5"
   },
   {
     "id": 44,
@@ -568,8 +568,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Stand at low cable pulley with bar attachment. Curl bar to chin level. Control the lowering phase.",
-    "image": "cable-curl.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Biceps_Cable_Curl/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 45,
@@ -581,8 +581,8 @@
     "sets": 3,
     "reps": 30,
     "instructions": "Support body on one forearm, feet stacked. Keep hips up and body straight. Hold for time, repeat other side.",
-    "image": "side-plank.jpg",
-    "emoji": "🧘"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+    "emoji": "\ud83e\uddd8"
   },
   {
     "id": 46,
@@ -594,8 +594,8 @@
     "sets": 4,
     "reps": 10,
     "instructions": "Grip parallel bars, support weight on arms. Lower until upper arms parallel to floor. Press back up.",
-    "image": "dips.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dips_-_Triceps_Version/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 47,
@@ -607,8 +607,8 @@
     "sets": 4,
     "reps": 12,
     "instructions": "Upper back on bench, barbell over hips. Drive hips upward squeezing glutes. Hold 1 second at top.",
-    "image": "hip-thrust.jpg",
-    "emoji": "🍑"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Hip_Thrust/0.jpg",
+    "emoji": "\ud83c\udf51"
   },
   {
     "id": 48,
@@ -620,8 +620,8 @@
     "sets": 4,
     "reps": 10,
     "instructions": "Straddle bar, hinge forward. Pull bar to lower chest squeezing mid-back. Keep chest up throughout.",
-    "image": "t-bar-row.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/T-Bar_Row_with_Handle/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 49,
@@ -632,9 +632,9 @@
     "location": "gym",
     "sets": 4,
     "reps": 20,
-    "instructions": "Sit at machine with knees bent 90°. Raise heels as high as possible. Lower to full stretch.",
-    "image": "calf-raise.jpg",
-    "emoji": "🦵"
+    "instructions": "Sit at machine with knees bent 90\u00b0. Raise heels as high as possible. Lower to full stretch.",
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Calf_Raise/0.jpg",
+    "emoji": "\ud83e\uddb5"
   },
   {
     "id": 50,
@@ -646,8 +646,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Hinge forward at low cable. Extend arm backward until straight. Squeeze tricep. Return controlled.",
-    "image": "tricep-kickback.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Tricep_Dumbbell_Kickback/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 51,
@@ -659,8 +659,8 @@
     "sets": 3,
     "reps": 10,
     "instructions": "Place hands in diamond shape under chest. Lower and press up. Targets triceps more than standard push-up.",
-    "image": "diamond-pushup.jpg",
-    "emoji": "💎"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_Push-Up_off_of_a_Dumbbell/0.jpg",
+    "emoji": "\ud83d\udc8e"
   },
   {
     "id": 52,
@@ -672,8 +672,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Lie flat. Simultaneously raise legs and upper body to form a V shape. Reach for toes. Lower controlled.",
-    "image": "v-up.jpg",
-    "emoji": "✌️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Jackknife_Sit-Up/0.jpg",
+    "emoji": "\u270c\ufe0f"
   },
   {
     "id": 53,
@@ -685,8 +685,8 @@
     "sets": 1,
     "reps": 15,
     "instructions": "Sit on rower, grab handles. Drive with legs first, then lean back and pull handle to lower ribs. Return smoothly.",
-    "image": "rowing.jpg",
-    "emoji": "🚣"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elliptical_Trainer/0.jpg",
+    "emoji": "\ud83d\udea3"
   },
   {
     "id": 54,
@@ -698,8 +698,8 @@
     "sets": 4,
     "reps": 8,
     "instructions": "Loop resistance band around pull-up bar and place knee in loop. Perform pull-up with band assisting.",
-    "image": "band-pullup.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Assisted_Pull-Up/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 55,
@@ -711,8 +711,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Lie on bench with dumbbells extended over chest. Bend elbows only, lowering weights to forehead. Extend back up.",
-    "image": "skull-crusher.jpg",
-    "emoji": "💀"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/EZ-Bar_Skullcrusher/0.jpg",
+    "emoji": "\ud83d\udc80"
   },
   {
     "id": 56,
@@ -724,8 +724,8 @@
     "sets": 3,
     "reps": 20,
     "instructions": "Start on hands and knees, knees hovering. Crawl forward alternating opposite limbs. Keep back flat.",
-    "image": "bear-crawl.jpg",
-    "emoji": "🐻"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bear_Crawl_Sled_Drags/0.jpg",
+    "emoji": "\ud83d\udc3b"
   },
   {
     "id": 57,
@@ -737,8 +737,8 @@
     "sets": 3,
     "reps": 12,
     "instructions": "Stand in front of bench or step. Step up one foot at a time, stand fully. Step back down. Alternate legs.",
-    "image": "step-up.jpg",
-    "emoji": "⬆️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Step_Ups/0.jpg",
+    "emoji": "\u2b06\ufe0f"
   },
   {
     "id": 58,
@@ -750,8 +750,8 @@
     "sets": 3,
     "reps": 15,
     "instructions": "Hinge forward 45 degrees holding dumbbells. Raise arms out to sides squeezing rear delts. Lower controlled.",
-    "image": "reverse-fly.jpg",
-    "emoji": "🦅"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Flyes/0.jpg",
+    "emoji": "\ud83e\udd85"
   },
   {
     "id": 59,
@@ -763,8 +763,8 @@
     "sets": 4,
     "reps": 12,
     "instructions": "Lie face down on incline bench. Row dumbbells to sides, squeezing shoulder blades. Control descent.",
-    "image": "chest-row.jpg",
-    "emoji": "💪"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Bench_Pull/0.jpg",
+    "emoji": "\ud83d\udcaa"
   },
   {
     "id": 60,
@@ -776,8 +776,8 @@
     "sets": 1,
     "reps": 20,
     "instructions": "Set machine to moderate pace. Step as if climbing stairs. Keep back straight. Avoid leaning on rails.",
-    "image": "stair-climber.jpg",
-    "emoji": "🪜"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elliptical_Trainer/0.jpg",
+    "emoji": "\ud83e\ude9c"
   },
   {
     "id": 61,
@@ -789,8 +789,8 @@
     "sets": 3,
     "reps": 6,
     "instructions": "Stand on one leg, extend the other. Slowly lower to bottom position. Push through heel to stand.",
-    "image": "pistol-squat.jpg",
-    "emoji": "🔫"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Kettlebell_Pistol_Squat/0.jpg",
+    "emoji": "\ud83d\udd2b"
   },
   {
     "id": 62,
@@ -802,8 +802,8 @@
     "sets": 3,
     "reps": 5,
     "instructions": "Start lying with weight extended. Follow the 7-step sequence to stand without lowering the weight.",
-    "image": "turkish-getup.jpg",
-    "emoji": "🏋️"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Kettlebell_Turkish_Get-Up_Lunge_style/0.jpg",
+    "emoji": "\ud83c\udfcb\ufe0f"
   },
   {
     "id": 63,
@@ -815,7 +815,7 @@
     "sets": 3,
     "reps": 6,
     "instructions": "Grip bench above head while lying on it. Raise entire body like a flag, lower with control.",
-    "image": "dragon-flag.jpg",
-    "emoji": "🐉"
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Lying_Leg_Raise/0.jpg",
+    "emoji": "\ud83d\udc09"
   }
 ]

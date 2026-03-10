@@ -290,6 +290,14 @@ img {
   padding: 1rem 0 0.5rem;
 }
 
+.card-exercise-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  display: block;
+}
+
 .card-title {
   font-size: 1.1rem;
   font-weight: 700;
@@ -946,6 +954,118 @@ img {
   padding: 0.15rem 0.5rem;
   font-size: 0.72rem;
   color: var(--text-secondary);
+}
+
+/* ── Exercise preview (inline in plan schedule) ─────────────────── */
+.schedule-exercises {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.exercise-preview {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.exercise-preview--open {
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.exercise-preview-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.6rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-align: left;
+  transition: background 0.15s, color 0.15s;
+}
+
+.exercise-preview-toggle:hover {
+  background: rgba(34, 197, 94, 0.08);
+  color: var(--text-primary);
+}
+
+.exercise-preview--open .exercise-preview-toggle {
+  color: var(--accent);
+  background: rgba(34, 197, 94, 0.06);
+}
+
+.exercise-preview-toggle-emoji {
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.exercise-preview-toggle-name {
+  flex: 1;
+  font-weight: 600;
+}
+
+.exercise-preview-toggle-chevron {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.exercise-preview-body {
+  padding: 0.5rem 0.75rem 0.65rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  animation: fadeIn 0.15s ease;
+}
+
+.exercise-preview-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0.35rem;
+  display: block;
+}
+
+.exercise-preview-stats {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.exercise-preview-stat-value {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.exercise-preview-stat-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.exercise-preview-stat-sep {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0 0.15rem;
+}
+
+.exercise-preview-instructions {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
 }
 
 /* ── No results ─────────────────────────────────────────────────── */
