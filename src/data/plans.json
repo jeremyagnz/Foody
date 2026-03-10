@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "name": "Weight Loss Plan",
+    "goal": "weight loss",
+    "description": "A structured 8-week beginner-friendly program combining full-body cardio workouts with calorie-controlled meals. Designed to burn fat while preserving lean muscle mass through progressive overload and clean eating.",
+    "duration": "8 weeks",
+    "difficulty": "beginner",
+    "emoji": "🔥",
+    "schedule": {
+      "monday": {
+        "exercises": ["Push Up", "Squat", "Mountain Climbers", "Jumping Jacks", "Plank"],
+        "meals": ["Green Smoothie Bowl", "Tuna Salad Wrap", "Lentil Soup"]
+      },
+      "tuesday": {
+        "exercises": ["Burpees", "High Knees", "Jump Rope", "Bicycle Crunches", "Side Plank"],
+        "meals": ["Egg White Omelette", "Asian Cabbage Slaw", "Miso Soup with Tofu"]
+      },
+      "wednesday": {
+        "exercises": ["Glute Bridge", "Resistance Band Squat", "Superman Hold", "Russian Twist", "Plank"],
+        "meals": ["Greek Yogurt Parfait", "Sweet Potato & Black Bean Bowl", "Baked Cod with Vegetables"]
+      },
+      "thursday": {
+        "exercises": ["Mountain Climbers", "Jumping Jacks", "High Knees", "Jump Rope", "Bicycle Crunches"],
+        "meals": ["Berry Protein Smoothie", "Cucumber & Hummus Snack", "Vegetable Frittata"]
+      },
+      "friday": {
+        "exercises": ["Push Up", "Squat", "Glute Bridge", "Side Plank", "Superman Hold"],
+        "meals": ["Tofu Scramble", "Rice Cakes with Nut Butter", "Turkey Chili"]
+      },
+      "saturday": {
+        "exercises": ["Burpees", "Step Up", "Russian Twist", "High Knees", "Bear Crawl"],
+        "meals": ["Chia Seed Pudding", "Edamame & Brown Rice Bowl", "Salmon Power Salad"]
+      },
+      "sunday": {
+        "exercises": [],
+        "meals": ["Overnight Oats", "Walnut & Apple Salad", "Zucchini Noodles with Pesto"]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Muscle Gain Plan",
+    "goal": "muscle gain",
+    "description": "A 10-week progressive overload hypertrophy program targeting all major muscle groups. Combined with high-protein meals to fuel muscle protein synthesis, recovery and growth. Ideal for intermediate lifters looking to build serious size.",
+    "duration": "10 weeks",
+    "difficulty": "intermediate",
+    "emoji": "💪",
+    "schedule": {
+      "monday": {
+        "exercises": ["Barbell Bench Press", "Incline Dumbbell Press", "Dumbbell Chest Fly", "Cable Chest Press", "Tricep Dips"],
+        "meals": ["High Protein Breakfast Bowl", "Protein Porridge", "Beef Stir Fry"]
+      },
+      "tuesday": {
+        "exercises": ["Deadlift", "Pull Up", "Dumbbell Row", "Lat Pulldown", "Cable Row"],
+        "meals": ["Peanut Butter Banana Shake", "Cottage Cheese & Fruit", "Chicken Tikka Masala"]
+      },
+      "wednesday": {
+        "exercises": ["Barbell Squat", "Romanian Deadlift", "Leg Press", "Dumbbell Lunges", "Seated Calf Raise"],
+        "meals": ["Protein Pancakes", "Power Granola Bar", "Chicken Burrito Bowl"]
+      },
+      "thursday": {
+        "exercises": ["Overhead Press", "Dumbbell Shoulder Press", "Dumbbell Lateral Raise", "Arnold Press", "Face Pull"],
+        "meals": ["Cottage Cheese Scrambled Eggs", "Quinoa Power Bowl", "Grilled Chicken Breast"]
+      },
+      "friday": {
+        "exercises": ["Preacher Curl", "Cable Bicep Curl", "Dumbbell Skull Crusher", "Tricep Pushdown", "Diamond Push Up"],
+        "meals": ["Protein French Toast", "Turkey & Avocado Sandwich", "Beef & Broccoli"]
+      },
+      "saturday": {
+        "exercises": ["Barbell Squat", "Barbell Hip Thrust", "Box Jump", "Step Up", "Nordic Hamstring Curl"],
+        "meals": ["High Protein Breakfast Bowl", "Chicken Stir Fry with Brown Rice", "Stuffed Bell Peppers"]
+      },
+      "sunday": {
+        "exercises": [],
+        "meals": ["Overnight Oats", "Black Bean Burrito", "Chickpea Curry"]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Fat Burn Shred",
+    "goal": "fat burn",
+    "description": "A 6-week high-intensity interval training program designed to maximize calorie burn during and after workouts (EPOC effect). Paired with fat-burning, protein-rich meals that support metabolic function. Perfect for those who want to shred body fat fast.",
+    "duration": "6 weeks",
+    "difficulty": "advanced",
+    "emoji": "⚡",
+    "schedule": {
+      "monday": {
+        "exercises": ["Burpees", "Mountain Climbers", "High Knees", "Jump Rope", "Box Jump"],
+        "meals": ["Berry Protein Smoothie", "Shrimp Tacos", "Salmon with Quinoa"]
+      },
+      "tuesday": {
+        "exercises": ["Deadlift", "T-Bar Row", "Romanian Deadlift", "Cable Row", "Superman Hold"],
+        "meals": ["Egg White Omelette", "Nicoise Salad", "Turkey Meatballs"]
+      },
+      "wednesday": {
+        "exercises": ["Barbell Squat", "Box Jump", "Burpees", "Pistol Squat", "Glute Bridge"],
+        "meals": ["Greek Yogurt Parfait", "Zucchini Noodles with Pesto", "Baked Cod with Vegetables"]
+      },
+      "thursday": {
+        "exercises": ["Barbell Bench Press", "Dips", "Cable Chest Press", "Mountain Climbers", "Tricep Pushdown"],
+        "meals": ["Berry Protein Smoothie", "Baked Sweet Potato with Tuna", "Turkey Chili"]
+      },
+      "friday": {
+        "exercises": ["Overhead Press", "Arnold Press", "Reverse Fly", "Face Pull", "Jumping Jacks"],
+        "meals": ["Tofu Scramble", "Mixed Nut & Seed Trail Mix", "Salmon Power Salad"]
+      },
+      "saturday": {
+        "exercises": ["Treadmill Run", "Stair Climber", "Rowing Machine", "High Knees", "Jump Rope"],
+        "meals": ["Chia Seed Pudding", "Asian Cabbage Slaw", "Stuffed Bell Peppers"]
+      },
+      "sunday": {
+        "exercises": [],
+        "meals": ["Overnight Oats", "Poke Bowl", "Turkey Chili"]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Maintenance & Wellness",
+    "goal": "maintenance",
+    "description": "A balanced 12-week lifestyle plan to maintain current fitness level and body composition. Combines moderate strength training with enjoyable cardio activities and balanced meals to support long-term health and wellbeing. Ideal for those happy with their body who want to stay there.",
+    "duration": "12 weeks",
+    "difficulty": "beginner",
+    "emoji": "🌿",
+    "schedule": {
+      "monday": {
+        "exercises": ["Push Up", "Dumbbell Row", "Plank", "Glute Bridge", "Resistance Band Bicep Curl"],
+        "meals": ["Avocado Toast with Eggs", "Caesar Salad with Chicken", "Chickpea Curry"]
+      },
+      "tuesday": {
+        "exercises": ["Treadmill Run", "Jump Rope", "Jumping Jacks", "High Knees", "Side Plank"],
+        "meals": ["Overnight Oats", "Grilled Halloumi Salad", "Whole Wheat Pasta Primavera"]
+      },
+      "wednesday": {
+        "exercises": ["Squat", "Dumbbell Lunges", "Leg Press", "Wall Sit", "Seated Calf Raise"],
+        "meals": ["Greek Yogurt Parfait", "Smoked Salmon Bagel", "Spinach & Mushroom Quesadilla"]
+      },
+      "thursday": {
+        "exercises": ["Dumbbell Shoulder Press", "Resistance Band Pull Apart", "Dumbbell Lateral Raise", "Superman Hold", "Bear Crawl"],
+        "meals": ["Protein Porridge", "Turkey & Avocado Sandwich", "Walnut & Apple Salad"]
+      },
+      "friday": {
+        "exercises": ["Lat Pulldown", "Cable Row", "Resistance Band Pull Apart", "Russian Twist", "Bicycle Crunches"],
+        "meals": ["Avocado Toast with Eggs", "Edamame & Brown Rice Bowl", "Black Bean Burrito"]
+      },
+      "saturday": {
+        "exercises": ["Rowing Machine", "Stair Climber", "Mountain Climbers", "Burpees", "Jump Rope"],
+        "meals": ["Baked Oatmeal with Berries", "Caesar Salad with Chicken", "Smoked Salmon Bagel"]
+      },
+      "sunday": {
+        "exercises": [],
+        "meals": ["Overnight Oats", "Walnut & Apple Salad", "Whole Wheat Pasta Primavera"]
+      }
+    }
+  }
+]
