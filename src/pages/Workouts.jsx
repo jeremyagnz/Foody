@@ -1,76 +1,78 @@
 import { useState, useMemo } from 'react';
 import ExerciseCard from '../components/ExerciseCard';
 import workouts from '../data/workouts.json';
+import { useLang } from '../context/LanguageContext';
 
-const LOCATIONS = ['All', 'Home', 'Gym'];
-const EQUIPMENTS = ['All', 'Bodyweight', 'Weights', 'Resistance Bands', 'Machines'];
-const MUSCLES = ['All', 'Chest', 'Back', 'Legs', 'Arms', 'Shoulders', 'Core', 'Cardio'];
+// Internal filter keys (match JSON data values)
+const LOCATION_KEYS  = ['all', 'home', 'gym'];
+const EQUIPMENT_KEYS = ['all', 'bodyweight', 'weights', 'resistance bands', 'machines'];
+const MUSCLE_KEYS    = ['all', 'chest', 'back', 'legs', 'arms', 'shoulders', 'core', 'cardio'];
 
 export default function Workouts() {
-  const [location, setLocation] = useState('All');
-  const [equipment, setEquipment] = useState('All');
-  const [muscle, setMuscle] = useState('All');
-  const [search, setSearch] = useState('');
+  const [location,  setLocation]  = useState('all');
+  const [equipment, setEquipment] = useState('all');
+  const [muscle,    setMuscle]    = useState('all');
+  const [search,    setSearch]    = useState('');
+  const { t } = useLang();
 
   const filtered = useMemo(() => {
     return workouts.filter((w) => {
-      const matchesLoc = location === 'All' || w.location.toLowerCase() === location.toLowerCase();
-      const matchesEq =
-        equipment === 'All' || w.equipment.toLowerCase() === equipment.toLowerCase();
-      const matchesMuscle =
-        muscle === 'All' || w.muscle.toLowerCase() === muscle.toLowerCase();
-      const matchesSearch =
-        search.trim() === '' || w.name.toLowerCase().includes(search.toLowerCase());
-      return matchesLoc && matchesEq && matchesMuscle && matchesSearch;
+      const matchesLoc  = location  === 'all' || w.location.toLowerCase()  === location;
+      const matchesEq   = equipment === 'all' || w.equipment.toLowerCase() === equipment;
+      const matchesMus  = muscle    === 'all' || w.muscle.toLowerCase()    === muscle;
+      const matchesSearch = search.trim() === '' || w.name.toLowerCase().includes(search.toLowerCase());
+      return matchesLoc && matchesEq && matchesMus && matchesSearch;
     });
   }, [location, equipment, muscle, search]);
+
+  const locLabel  = (k) => k === 'all' ? t.filters.all : (t.locations[k]  ?? k);
+  const eqLabel   = (k) => k === 'all' ? t.filters.all : (t.equipments[k] ?? k);
+  const musLabel  = (k) => k === 'all' ? t.filters.all : (t.muscles[k]    ?? k);
 
   return (
     <main className="page">
       <div className="page-header">
-        <h1 className="page-title">💪 Exercise Library</h1>
-        <p className="page-subtitle">
-          {workouts.length}+ exercises for home and gym — filter by muscle, equipment and difficulty.
-        </p>
+        <h1 className="page-title">{t.workouts.title}</h1>
+        <p className="page-subtitle">{t.workouts.subtitle(workouts.length)}</p>
       </div>
 
       {/* Filters */}
       <div className="filter-section">
         <div className="filter-group">
-          <span className="filter-group-label">Location:</span>
-          {LOCATIONS.map((loc) => (
+          <span className="filter-group-label">{t.filters.location}</span>
+          {LOCATION_KEYS.map((key) => (
             <button
-              key={loc}
-              className={`filter-btn${location === loc ? ' active' : ''}`}
-              onClick={() => setLocation(loc)}
+              key={key}
+              className={`filter-btn${location === key ? ' active' : ''}`}
+              onClick={() => setLocation(key)}
             >
-              {loc}
+              {locLabel(key)}
             </button>
           ))}
         </div>
 
         <div className="filter-group">
-          <span className="filter-group-label">Equipment:</span>
-          {EQUIPMENTS.map((eq) => (
+          <span className="filter-group-label">{t.filters.equipment}</span>
+          {EQUIPMENT_KEYS.map((key) => (
             <button
-              key={eq}
-              className={`filter-btn${equipment === eq ? ' active' : ''}`}
-              onClick={() => setEquipment(eq)}
+              key={key}
+              className={`filter-btn${equipment === key ? ' active' : ''}`}
+              onClick={() => setEquipment(key)}
             >
-              {eq}
+              {eqLabel(key)}
             </button>
           ))}
         </div>
 
         <div className="filter-group">
-          <span className="filter-group-label">Muscle:</span>
-          {MUSCLES.map((m) => (
+          <span className="filter-group-label">{t.filters.muscle}</span>
+          {MUSCLE_KEYS.map((key) => (
             <button
-              key={m}
-              className={`filter-btn${muscle === m ? ' active' : ''}`}
-              onClick={() => setMuscle(m)}
+              key={key}
+              className={`filter-btn${muscle === key ? ' active' : ''}`}
+              onClick={() => setMuscle(key)}
             >
-              {m}
+              {musLabel(key)}
             </button>
           ))}
         </div>
@@ -82,15 +84,13 @@ export default function Workouts() {
         <input
           className="search-input"
           type="text"
-          placeholder="Search exercises…"
+          placeholder={t.workouts.searchPlaceholder}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
       </div>
 
-      <p className="results-count">
-        Showing <strong>{filtered.length}</strong> of {workouts.length} exercises
-      </p>
+      <p className="results-count">{t.workouts.showing(<strong key="n">{filtered.length}</strong>, workouts.length)}</p>
 
       <div className="cards-grid">
         {filtered.length > 0 ? (
@@ -98,8 +98,8 @@ export default function Workouts() {
         ) : (
           <div className="no-results">
             <div className="no-results-emoji">🏋️</div>
-            <h3>No exercises found</h3>
-            <p>Try adjusting your filters or search term.</p>
+            <h3>{t.workouts.noResultsTitle}</h3>
+            <p>{t.workouts.noResultsDesc}</p>
           </div>
         )}
       </div>

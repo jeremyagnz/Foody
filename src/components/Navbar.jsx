@@ -1,14 +1,16 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useLang } from '../context/LanguageContext';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { lang, toggleLang, t } = useLang();
 
   const links = [
-    { to: '/', label: 'Home' },
-    { to: '/meals', label: 'Meals' },
-    { to: '/workouts', label: 'Workouts' },
-    { to: '/plans', label: 'Plans' },
+    { to: '/', label: t.nav.home },
+    { to: '/meals', label: t.nav.meals },
+    { to: '/workouts', label: t.nav.workouts },
+    { to: '/plans', label: t.nav.plans },
   ];
 
   return (
@@ -32,15 +34,26 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <button
-          className={`navbar-hamburger${menuOpen ? ' open' : ''}`}
-          onClick={() => setMenuOpen((o) => !o)}
-          aria-label="Toggle menu"
-        >
-          <span />
-          <span />
-          <span />
-        </button>
+        <div className="navbar-right">
+          <button
+            className="lang-toggle"
+            onClick={toggleLang}
+            aria-label={lang === 'en' ? 'Switch to Spanish' : 'Cambiar a inglés'}
+            title={lang === 'en' ? 'Switch to Spanish' : 'Cambiar a inglés'}
+          >
+            {lang === 'en' ? '🇪🇸 ES' : '🇬🇧 EN'}
+          </button>
+
+          <button
+            className={`navbar-hamburger${menuOpen ? ' open' : ''}`}
+            onClick={() => setMenuOpen((o) => !o)}
+            aria-label={t.nav.toggleMenu}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+        </div>
       </div>
 
       {menuOpen && (
@@ -56,6 +69,13 @@ export default function Navbar() {
               {label}
             </NavLink>
           ))}
+          <button
+            className="lang-toggle lang-toggle-mobile"
+            onClick={() => { toggleLang(); setMenuOpen(false); }}
+            aria-label={lang === 'en' ? 'Switch to Spanish' : 'Cambiar a inglés'}
+          >
+            {lang === 'en' ? '🇪🇸 Español' : '🇬🇧 English'}
+          </button>
         </div>
       )}
     </nav>

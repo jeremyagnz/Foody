@@ -122,6 +122,44 @@ img {
   padding: 0.5rem;
 }
 
+/* Groups language toggle + hamburger on the right */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Language toggle button */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgba(34, 197, 94, 0.1);
+  color: var(--accent);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.lang-toggle:hover {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: var(--accent);
+}
+
+/* Inside the mobile menu */
+.lang-toggle-mobile {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  padding: 0.625rem 1rem;
+  width: 100%;
+  justify-content: flex-start;
+}
+
 .navbar-hamburger span {
   display: block;
   width: 24px;
@@ -174,6 +212,10 @@ img {
   }
   .navbar-hamburger {
     display: flex;
+  }
+  /* Hide the desktop lang toggle on mobile (it's shown in mobile menu instead) */
+  .navbar-right > .lang-toggle:not(.lang-toggle-mobile) {
+    display: none;
   }
   .navbar-mobile {
     display: flex;

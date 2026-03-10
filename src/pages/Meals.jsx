@@ -1,17 +1,20 @@
 import { useState, useMemo } from 'react';
 import MealCard from '../components/MealCard';
 import meals from '../data/meals.json';
+import { useLang } from '../context/LanguageContext';
 
-const CATEGORIES = ['All', 'Weight Loss', 'Muscle Gain', 'Fat Burn', 'Maintenance'];
+// Internal filter keys (match JSON data values)
+const CATEGORY_KEYS = ['all', 'weight loss', 'muscle gain', 'fat burn', 'maintenance'];
 
 export default function Meals() {
-  const [category, setCategory] = useState('All');
+  const [category, setCategory] = useState('all');
   const [search, setSearch] = useState('');
+  const { t } = useLang();
 
   const filtered = useMemo(() => {
     return meals.filter((m) => {
       const matchesCat =
-        category === 'All' || m.category.toLowerCase() === category.toLowerCase();
+        category === 'all' || m.category.toLowerCase() === category;
       const matchesSearch =
         search.trim() === '' ||
         m.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -20,26 +23,28 @@ export default function Meals() {
     });
   }, [category, search]);
 
+  // Display label for a category key
+  const catLabel = (key) =>
+    key === 'all' ? t.filters.all : (t.goals[key] ?? key);
+
   return (
     <main className="page">
       <div className="page-header">
-        <h1 className="page-title">🥗 Meal Library</h1>
-        <p className="page-subtitle">
-          Discover {meals.length}+ nutritionist-crafted meals tailored to your fitness goal.
-        </p>
+        <h1 className="page-title">{t.meals.title}</h1>
+        <p className="page-subtitle">{t.meals.subtitle(meals.length)}</p>
       </div>
 
       {/* Filters */}
       <div className="filter-section">
         <div className="filter-group">
-          <span className="filter-group-label">Goal:</span>
-          {CATEGORIES.map((cat) => (
+          <span className="filter-group-label">{t.filters.goal}</span>
+          {CATEGORY_KEYS.map((key) => (
             <button
-              key={cat}
-              className={`filter-btn${category === cat ? ' active' : ''}`}
-              onClick={() => setCategory(cat)}
+              key={key}
+              className={`filter-btn${category === key ? ' active' : ''}`}
+              onClick={() => setCategory(key)}
             >
-              {cat}
+              {catLabel(key)}
             </button>
           ))}
         </div>
@@ -51,15 +56,13 @@ export default function Meals() {
         <input
           className="search-input"
           type="text"
-          placeholder="Search meals or ingredients…"
+          placeholder={t.meals.searchPlaceholder}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
       </div>
 
-      <p className="results-count">
-        Showing <strong>{filtered.length}</strong> of {meals.length} meals
-      </p>
+      <p className="results-count">{t.meals.showing(<strong key="n">{filtered.length}</strong>, meals.length)}</p>
 
       <div className="cards-grid">
         {filtered.length > 0 ? (
@@ -67,8 +70,8 @@ export default function Meals() {
         ) : (
           <div className="no-results">
             <div className="no-results-emoji">🔍</div>
-            <h3>No meals found</h3>
-            <p>Try adjusting your search or filter.</p>
+            <h3>{t.meals.noResultsTitle}</h3>
+            <p>{t.meals.noResultsDesc}</p>
           </div>
         )}
       </div>

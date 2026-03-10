@@ -1,46 +1,48 @@
 import { useState, useMemo } from 'react';
 import PlanCard from '../components/PlanCard';
 import plans from '../data/plans.json';
+import { useLang } from '../context/LanguageContext';
 
-const GOALS = ['All', 'Weight Loss', 'Muscle Gain', 'Fat Burn', 'Maintenance'];
+// Internal filter keys (match JSON data values)
+const GOAL_KEYS = ['all', 'weight loss', 'muscle gain', 'fat burn', 'maintenance'];
 
 export default function Plans() {
-  const [goal, setGoal] = useState('All');
+  const [goal, setGoal] = useState('all');
+  const { t } = useLang();
 
   const filtered = useMemo(() => {
-    return plans.filter((p) => {
-      return goal === 'All' || p.goal.toLowerCase() === goal.toLowerCase();
-    });
+    return plans.filter((p) =>
+      goal === 'all' || p.goal.toLowerCase() === goal
+    );
   }, [goal]);
+
+  const goalLabel = (k) =>
+    k === 'all' ? t.filters.all : (t.goals[k] ?? k);
 
   return (
     <main className="page">
       <div className="page-header">
-        <h1 className="page-title">📅 Fitness Plans</h1>
-        <p className="page-subtitle">
-          Complete weekly programmes with structured workouts and meals — pick your goal and follow the plan.
-        </p>
+        <h1 className="page-title">{t.plans.title}</h1>
+        <p className="page-subtitle">{t.plans.subtitle}</p>
       </div>
 
       {/* Filters */}
       <div className="filter-section">
         <div className="filter-group">
-          <span className="filter-group-label">Goal:</span>
-          {GOALS.map((g) => (
+          <span className="filter-group-label">{t.filters.goal}</span>
+          {GOAL_KEYS.map((key) => (
             <button
-              key={g}
-              className={`filter-btn${goal === g ? ' active' : ''}`}
-              onClick={() => setGoal(g)}
+              key={key}
+              className={`filter-btn${goal === key ? ' active' : ''}`}
+              onClick={() => setGoal(key)}
             >
-              {g}
+              {goalLabel(key)}
             </button>
           ))}
         </div>
       </div>
 
-      <p className="results-count">
-        Showing <strong>{filtered.length}</strong> of {plans.length} plans
-      </p>
+      <p className="results-count">{t.plans.showing(<strong key="n">{filtered.length}</strong>, plans.length)}</p>
 
       <div className="cards-grid">
         {filtered.length > 0 ? (
@@ -48,8 +50,8 @@ export default function Plans() {
         ) : (
           <div className="no-results">
             <div className="no-results-emoji">📋</div>
-            <h3>No plans found</h3>
-            <p>Try a different goal filter.</p>
+            <h3>{t.plans.noResultsTitle}</h3>
+            <p>{t.plans.noResultsDesc}</p>
           </div>
         )}
       </div>
