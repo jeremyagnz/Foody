@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import { useLang } from '../context/LanguageContext';
+import workouts from '../data/workouts.json';
+import ExercisePreview from './ExercisePreview';
+
+const workoutsMap = Object.fromEntries(workouts.map((w) => [w.name, w]));
 
 const GOAL_COLORS = {
   'weight loss': 'badge-blue',
@@ -77,10 +81,15 @@ export default function PlanCard({ plan }) {
                   ) : (
                     <div className="schedule-list">
                       <p className="schedule-list-title">{pc.exercises}</p>
-                      <div className="schedule-items">
-                        {dayData.exercises.map((ex, i) => (
-                          <span key={i} className="schedule-item">{ex}</span>
-                        ))}
+                      <div className="schedule-exercises">
+                        {dayData.exercises.map((ex, i) => {
+                          const workout = workoutsMap[ex];
+                          return workout ? (
+                            <ExercisePreview key={i} exercise={workout} />
+                          ) : (
+                            <span key={i} className="schedule-item">{ex}</span>
+                          );
+                        })}
                       </div>
                       <p className="schedule-list-title">{pc.mealsSect}</p>
                       <div className="schedule-items">
