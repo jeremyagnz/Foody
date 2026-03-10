@@ -28,7 +28,7 @@ export default function ExerciseCard({ exercise }) {
   const { t } = useLang();
   const ec = t.exerciseCard;
 
-  const { name, muscle, difficulty, equipment, location, sets, reps, instructions, image, emoji } = exercise;
+  const { name, muscle, difficulty, equipment, location, sets, reps, instructions, gif, emoji } = exercise;
 
   const diffColor   = DIFFICULTY_COLORS[difficulty] ?? 'badge-gray';
   const muscleColor = MUSCLE_COLORS[muscle]          ?? 'badge-gray';
@@ -41,8 +41,8 @@ export default function ExerciseCard({ exercise }) {
 
   return (
     <div className="card">
-      {image && !imgError
-        ? <img src={image} alt={name} className="card-exercise-img" onError={() => setImgError(true)} />
+      {gif && !imgError
+        ? <img src={gif} alt={name} className="card-exercise-img" onError={() => setImgError(true)} />
         : <div className="card-emoji" aria-hidden="true">{emoji}</div>
       }
 

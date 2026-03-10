@@ -23,7 +23,7 @@ export default function ExercisePreview({ exercise }) {
   const { t } = useLang();
   const ec = t.exerciseCard;
 
-  const { name, muscle, difficulty, equipment, sets, reps, instructions, image, emoji } = exercise;
+  const { name, muscle, difficulty, equipment, sets, reps, instructions, gif, emoji } = exercise;
 
   const diffColor = DIFFICULTY_COLORS[difficulty] ?? 'badge-gray';
   const muscleColor = MUSCLE_COLORS[muscle] ?? 'badge-gray';
@@ -46,8 +46,8 @@ export default function ExercisePreview({ exercise }) {
 
       {open && (
         <div className="exercise-preview-body">
-          {image && !imgError && (
-            <img src={image} alt={name} className="exercise-preview-img" onError={() => setImgError(true)} />
+          {gif && !imgError && (
+            <img src={gif} alt={name} className="exercise-preview-img" onError={() => setImgError(true)} />
           )}
           <div className="badge-row">
             <span className={`badge ${muscleColor}`}>{muscleLabel}</span>
